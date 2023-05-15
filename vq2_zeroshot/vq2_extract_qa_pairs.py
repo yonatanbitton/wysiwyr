@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 from PIL import Image
 
-from pipeline.question_generation import get_answer_candidates, get_questions_sample
+from question_generation import get_answer_candidates, get_questions_sample
 
 def main():
     images_path = ['images/id_22_Colors_sd_2_1_2.png', 'images/COCO_val2014_000000067122.jpg']
