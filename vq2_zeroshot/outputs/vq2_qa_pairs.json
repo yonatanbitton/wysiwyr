@@ -1,0 +1,130 @@
+[
+    {
+        "image": "images/id_22_Colors_sd_2_1_2.png",
+        "caption": "A black apple and a green backpack",
+        "qa_pairs": [
+            {
+                "question": "What is the name of the fruit that can be found with a green backpack?",
+                "answer": "A black apple"
+            },
+            {
+                "question": "With what type of apple does a green backpack pair up?",
+                "answer": "A black apple"
+            },
+            {
+                "question": "What apple is a green backpack?",
+                "answer": "A black apple"
+            },
+            {
+                "question": "What is the apple?",
+                "answer": "A black apple"
+            },
+            {
+                "question": "What other thing could you put in your backpack?",
+                "answer": "a green backpack"
+            },
+            {
+                "question": "A black apple and what else are in pairs?",
+                "answer": "a green backpack"
+            },
+            {
+                "question": "What else would you wear with the black apple?",
+                "answer": "a green backpack"
+            },
+            {
+                "question": "Along with a black apple, what else would you get with your lunch?",
+                "answer": "a green backpack"
+            },
+            {
+                "question": "A black apple and what else?",
+                "answer": "a green backpack"
+            }
+        ]
+    },
+    {
+        "image": "images/COCO_val2014_000000067122.jpg",
+        "caption": "The dog is resting on the chair on the porch of the house.",
+        "qa_pairs": [
+            {
+                "question": "Who is on the porch?",
+                "answer": "The dog"
+            },
+            {
+                "question": "Which dog is resting on the chair on the porch of the house?",
+                "answer": "The dog"
+            },
+            {
+                "question": "Which animal is sitting in the porch of your home?",
+                "answer": "The dog"
+            },
+            {
+                "question": "Who is sitting on the porch?",
+                "answer": "The dog"
+            },
+            {
+                "question": "Which animal is on the porch of a house?",
+                "answer": "The dog"
+            },
+            {
+                "question": "Where is the dog resting?",
+                "answer": "the chair"
+            },
+            {
+                "question": "What is the dog resting on?",
+                "answer": "the chair"
+            },
+            {
+                "question": "What does the dog rest on on the porch?",
+                "answer": "the chair"
+            },
+            {
+                "question": "On what area of the porch does the dog rest?",
+                "answer": "the chair"
+            },
+            {
+                "question": "What is the dog resting on?",
+                "answer": "the chair"
+            },
+            {
+                "question": "On which porch is the dog in the family?",
+                "answer": "the porch"
+            },
+            {
+                "question": "Where is he sitting?",
+                "answer": "the porch"
+            },
+            {
+                "question": "Where is the dog lying at home?",
+                "answer": "the porch"
+            },
+            {
+                "question": "On what aspect of the house is the dog seated?",
+                "answer": "the porch"
+            },
+            {
+                "question": "What part of the house does the dog live in?",
+                "answer": "the porch"
+            },
+            {
+                "question": "Where is the dog resting at the moment?",
+                "answer": "the house"
+            },
+            {
+                "question": "In what part of the house is the dog resting in a chair?",
+                "answer": "the house"
+            },
+            {
+                "question": "On what surface is the dog resting?",
+                "answer": "the house"
+            },
+            {
+                "question": "Where's the dog seated on the porch of the house?",
+                "answer": "the house"
+            },
+            {
+                "question": "Where is the dog resting?",
+                "answer": "the house"
+            }
+        ]
+    }
+]
