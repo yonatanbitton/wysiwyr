@@ -13,7 +13,8 @@ def main():
                 r_dict = deepcopy(r.to_dict())
                 r_dict['img_caption'] = img_caption
                 r_dict['image'] = r[img]
-                r_dict['caption'] = r[caption]
+                r_dict['text'] = r[caption]
+                r_dict['label'] = 1 if img.split('_')[-1] == caption.split('_')[-1] else 0 
                 items.append(r_dict)
     out_df = pd.DataFrame(items)
     out_df.to_csv(winoground_output_path, index=False)
