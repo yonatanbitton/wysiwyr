@@ -31,6 +31,8 @@ aws s3 sync s3://seetrue/images images/
 
 After downloading the dataset and images, you can proceed with the VQ2_ZeroShot and end-to-end classification methods as described below.
 
+Some datasets are obtained from public resources. To process the Winoground dataset, accept their terms and download the `jsonl` files from the huggingface repository (https://huggingface.co/datasets/facebook/winoground/blob/main/data/examples.jsonl) and run `datasets/process_winoground.py` to convert it to the binary SeeTRUE format.
+
 ## VQ2 Zero-Shot Method
 
 This method involves a pipeline based on question generation and visual question answering models. We use the Q-Squared repository (https://github.com/orhonovich/q-squared) to create the question-answering pairs. In this section, we demonstrate the steps to generate the QA pairs, evaluate them using a VQA model, and visualize the outputs.
@@ -69,7 +71,7 @@ The generated visualizations are saved in the `images` directory:
 - `plot_cat.png`: Visualization for the `COCO_val2014_000000067122.jpg` image and its caption.
 
 ![Apple Visualization](./vq2_zeroshot/images/plot_apple.png)
-![Apple Visualization](./vq2_zeroshot/images/plot_cat.png)
+![Cat Visualization](./vq2_zeroshot/images/plot_cat.png)
 
 ## Reproducing Results for the End-to-End VNLI Method
 
