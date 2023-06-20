@@ -127,4 +127,3 @@ wasabi==0.10.1
 wcwidth==0.2.6
 webdataset==0.2.48
 zipp==3.15.0
-matplotlib
