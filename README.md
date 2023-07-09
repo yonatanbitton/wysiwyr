@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ## SeeTRUE Dataset
 
 The SeeTRUE dataset is a comprehensive evaluation set for text-to-image and image-to-text generation tasks, with human judgments for whether a given text-image pair is semantically aligned. 
+We will add more datasets from SeeTRUE (e.g., COCO-Con and PickaPic-Con) upon data release.
 
 SeeTRUE is available in Huggingface datasets: https://huggingface.co/datasets/yonatanbitton/SeeTRUE
 
