@@ -13,7 +13,11 @@ pip install -r requirements.txt
 
 ## SeeTRUE Dataset
 
-The SeeTRUE dataset is a comprehensive evaluation set for text-to-image and image-to-text generation tasks, with human judgments for whether a given text-image pair is semantically aligned. The dataset is available in S3. You can download the CSV file and images using the following links:
+The SeeTRUE dataset is a comprehensive evaluation set for text-to-image and image-to-text generation tasks, with human judgments for whether a given text-image pair is semantically aligned. 
+
+SeeTRUE is available in Huggingface datasets: https://huggingface.co/datasets/yonatanbitton/SeeTRUE
+
+The dataset is also available in S3. You can download the CSV file and images using the following links:
 
 - SeeTRUE dataset CSV: https://seetrue.s3.amazonaws.com/SeeTRUE_public.csv
 - Images directory: https://seetrue.s3.amazonaws.com/images/
