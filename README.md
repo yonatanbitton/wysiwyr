@@ -82,6 +82,10 @@ The generated visualizations are saved in the `images` directory:
 
 ### Step 1: Train the Model
 
+The code is using the [LAVIS library](https://github.com/salesforce/LAVIS/tree/main)
+
+The config is [here](https://github.com/salesforce/LAVIS/blob/main/lavis/configs/models/blip2/blip2_pretrain_flant5xl.yaml). 
+
 First, train the model using the `itm_vqa_blip2_train.py` script:
 
 ```bash
